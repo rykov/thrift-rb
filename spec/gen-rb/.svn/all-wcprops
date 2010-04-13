@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/asf/!svn/ver/750160/incubator/thrift/trunk/lib/rb/spec/gen-rb
+END
+ThriftSpec_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/750160/incubator/thrift/trunk/lib/rb/spec/gen-rb/ThriftSpec_types.rb
+END
+NonblockingService.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/750160/incubator/thrift/trunk/lib/rb/spec/gen-rb/NonblockingService.rb
+END
+ThriftSpec_constants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/671963/incubator/thrift/trunk/lib/rb/spec/gen-rb/ThriftSpec_constants.rb
+END
