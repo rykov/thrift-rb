@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/750160/incubator/thrift/trunk/lib/rb/benchmark/gen-rb
+END
+Benchmark_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/669007/incubator/thrift/trunk/lib/rb/benchmark/gen-rb/Benchmark_types.rb
+END
+Benchmark_constants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/671963/incubator/thrift/trunk/lib/rb/benchmark/gen-rb/Benchmark_constants.rb
+END
+BenchmarkService.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/750160/incubator/thrift/trunk/lib/rb/benchmark/gen-rb/BenchmarkService.rb
+END
