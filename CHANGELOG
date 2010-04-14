@@ -1,3 +1,4 @@
+v0.2.0.1 Remove -Werror from compile.
 
 v0.2.0. Update version to Thrift release 0.2.0. No actual code changes.
 
