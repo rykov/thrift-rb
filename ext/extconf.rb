@@ -19,7 +19,7 @@
 
 require 'mkmf'
 
-$CFLAGS = "-g -O2 -Wall -Werror"
+$CFLAGS = "-g -O2 -Wall"
 
 have_func("strlcpy", "string.h")
 
