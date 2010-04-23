@@ -83,7 +83,6 @@ begin
     p.include_rakefile = true
     p.url = "http://blog.evanweaver.com/files/doc/fauna/thrift/"
     p.docs_host = "blog.evanweaver.com:~/www/bax/public/files/doc/"
-    p.extension_pattern = '' if defined?(JRUBY_VERSION)
   end
 
   task :install => [:check_site_lib]

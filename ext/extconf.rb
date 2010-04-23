@@ -17,10 +17,24 @@
 # under the License.
 # 
 
-require 'mkmf'
+unless defined?(JRUBY_VERSION)
+  require 'mkmf'
 
-$CFLAGS = "-g -O2 -Wall"
+  $CFLAGS = "-g -O2 -Wall"
 
-have_func("strlcpy", "string.h")
+  have_func("strlcpy", "string.h")
 
-create_makefile 'thrift_native'
+  create_makefile 'thrift_native'
+else
+  # RubyGems Gem::Ext::ExtConfBuilder is looking for a Makefile
+  # so make a dummy Makefile to appease it
+  File.open(File.expand_path('../Makefile', __FILE__), 'w') do |f|
+    f.write <<-EOS
+      all:
+      static:
+      clean:
+      distclean:
+      install:
+    EOS
+  end
+end
