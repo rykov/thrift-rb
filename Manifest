@@ -52,6 +52,7 @@ lib/thrift/server/threaded_server.rb
 lib/thrift/server/thttpserver.rb
 lib/thrift/server/tserver.rb
 lib/thrift/struct.rb
+lib/thrift/struct_union.rb
 lib/thrift/thrift_native.rb
 lib/thrift/transport/base_server_transport.rb
 lib/thrift/transport/base_transport.rb
@@ -65,6 +66,7 @@ lib/thrift/transport/socket.rb
 lib/thrift/transport/unix_server_socket.rb
 lib/thrift/transport/unix_socket.rb
 lib/thrift/types.rb
+lib/thrift/union.rb
 script/proto_benchmark.rb
 script/read_struct.rb
 script/write_struct.rb
@@ -93,4 +95,5 @@ spec/socket_spec_shared.rb
 spec/spec_helper.rb
 spec/struct_spec.rb
 spec/types_spec.rb
+spec/union_spec.rb
 spec/unix_socket_spec.rb

@@ -1,3 +1,5 @@
+instant-r979367 Update version to Thrift 0.4 dev snapshot of thrift from http://gitweb.thrift-rpc.org/?p=thrift.git;spfx=thrift-instant-r979367;a=snapshot;h=dee2c40c82d8ce8b7a5c35ef0766058ac04ac2b6;sf=tgz
+
 v0.2.0.4 Support Rubinius properly (tritonrc).
 
 v0.2.0.3 Support JRuby properly (tritonrc).
