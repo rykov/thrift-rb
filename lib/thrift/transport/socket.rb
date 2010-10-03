@@ -40,9 +40,7 @@ module Thrift
         begin
           @handle.connect_nonblock(sockaddr)
         rescue Errno::EINPROGRESS
-          unless IO.select(nil, [ @handle ], nil, @timeout)
-            raise TransportException.new(TransportException::NOT_OPEN, "Connection timeout to #{@desc}")
-          end
+          IO.select(nil, [ @handle ], nil, @timeout)
           begin
             @handle.connect_nonblock(sockaddr)
           rescue Errno::EISCONN
