@@ -83,6 +83,7 @@ module Thrift
     end
 
     def write_i16(i16)
+      raise RangeError if i16.nil?
       trans.write([i16].pack('n'))
     end
 
