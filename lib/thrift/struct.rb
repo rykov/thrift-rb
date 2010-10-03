@@ -115,7 +115,7 @@ module Thrift
       each_field do |fid, field_info|
         name = field_info[:name]
         type = field_info[:type]
-        if (value = instance_variable_get("@#{name}"))
+        unless (value = instance_variable_get("@#{name}")).nil?
           if is_container? type
             oprot.write_field_begin(name, type, fid)
             write_container(oprot, value, field_info)
